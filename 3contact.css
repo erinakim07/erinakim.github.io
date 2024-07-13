@@ -1,0 +1,168 @@
+body {
+    background-color:rgb(255, 238, 254);
+    margin: 0;
+}
+
+h1 {
+    color:rgb(231, 108, 129);
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#letrageneral {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header {
+    background-color: rgb(255, 230, 234);
+    color:azure;
+    padding: 1em;
+}
+
+#seccion1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 15px; 
+    background-color: rgb(221, 130, 144);
+    position: relative; 
+}
+
+#partofme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+ul {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin: 0 auto; 
+    gap: 20px; 
+    font-size: large;
+}
+
+ul li a {
+    text-decoration: none; 
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+#li1 {
+    margin-left:30px;
+}
+
+#li2 {
+    margin-left: 60px;
+}
+
+#li3 {
+    margin-left:70px
+}
+
+#contactus {
+    position: absolute;
+    left: 25%; 
+    transform: translate(-50%, -50%);
+    background-color:rgb(245, 245, 245);
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 450px; 
+    width: 80%; 
+    color:black;
+}
+
+#formulario {
+    position: absolute;
+    left: 25%; 
+    transform: translate(-50%, -50%);
+    background-color:rgb(245, 245, 245);
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 450px; 
+    width: 80%; 
+    color:black;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    background-color: rgb(242, 159, 173);
+    color: white;
+    padding: 15px 0;
+}
+
+#contenido {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgb(242, 159, 173);
+}
+
+#metodosdepago {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%; 
+    margin-right: auto; 
+    margin-left:50px;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto; 
+}
+
+#metodosdepago h4 {
+    margin-bottom: 10px;
+    color: rgb(197, 74, 94);
+}
+
+#contacto h4 {
+    margin-bottom: 10px;
+    color: rgb(197, 74, 94);
+}
+
+#contacto p {
+    margin: 5px 0;
+}
+
+#steve1 {
+    width: 50px;
+    margin: 5px;
+    padding: 3px;
+}
+
+#steve2 {
+    width: 50px;
+    margin: 5px;
+    padding: 3px;
+}
+
+#steve3 {
+    width: 60px;
+    margin: 5px;
+    padding: 3px;
+}
+
+#steve4 {
+    width: 55px;
+    margin: 5px;
+    padding: 3px;
+}
+
+#steve5 {
+    width: 60px;
+    margin: 5px;
+    padding: 3px;
+}
